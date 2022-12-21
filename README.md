@@ -15,7 +15,7 @@ Put the watch-history.json from youtube into the same folder as the .py file, ru
 - Create a new folder on your pc, and open it
 - Copy the `.py` script and `watch-history.json` into this folder
 - Press Alt-D and type `powershell` to open a powershell window in this folder
-- type `python analyse` and then press tab to autocomplete the script name
+- Type `python analyse` and then press tab to autocomplete the script name
 - Press enter
 
 A file named `output.txt` should be generated with the results! Let me know if something goes wrong

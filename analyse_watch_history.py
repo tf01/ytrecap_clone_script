@@ -67,7 +67,7 @@ count = 0
 for (key, value) in sorted_videos.items():
     count += 1
     title = str(key).replace('Watched ', '')
-    print_output(f'#{str(count).zfill(3)}: {value} watches of {title}')
+    print_output(f'#{str(count).zfill(3)}: {value: >3} watches of {title}')
     if(count >= top_num):
         break
 
@@ -75,7 +75,7 @@ print_output(f'{top_num} most watched channels:')
 count = 0
 for (key, value) in sorted_channels.items():
     count += 1
-    print_output(f'#{str(count).zfill(3)}: {value} from {key}')
+    print_output(f'#{str(count).zfill(3)}: {value: >3} from {key}')
     if(count >= top_num):
         break
 
